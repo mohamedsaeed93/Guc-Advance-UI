@@ -262,6 +262,7 @@ div.vertical-line {
 
 .grid-layout-container img {
   display: block;
+  width: 248px;
 }
 
 .grid-layout-container li:nth-child(4n+1) {
