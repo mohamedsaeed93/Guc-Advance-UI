@@ -1,0 +1,361 @@
+html {
+  background-color: #eaf0f2;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.headerbar-wrapper {
+  text-align: center;
+  background: #fbf5d9;
+}
+
+.headerbar-wrapper p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.headerbar-wrapper a {
+  color: #ff510a;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.headerbar-wrapper a[href^="mailto"] {
+  text-transform: none;
+  color: #000;
+}
+
+.header-wrapper header,
+p,
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.header-wrapper h1,
+h2 {
+  text-transform: uppercase;
+  color: #0a1c0f;
+  margin-top: 100px;
+  font-weight: normal;
+}
+
+.header-wrapper h1 {
+  font-size: 65px;
+}
+
+.header-wrapper h2 {
+  font-size: 35px;
+}
+
+.header-wrapper p {
+  color: #A0A0A0;
+  font-size: 25px;
+  margin: 0;
+}
+
+.arrivals a {
+  margin-top: 40px;
+  margin-right: 5px;
+  margin-bottom: 60px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C0C0C0;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-wrapper {
+  line-height: 34px;
+  margin-top: 30px;
+}
+
+.nav-wrapper h1 {
+  position: absolute;
+  left: -99999px;
+}
+
+.nav-wrapper ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.nav-wrapper li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+.nav-wrapper .active a {
+  background-color: #000;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-wrapper a {
+  display: inline-block;
+  padding: 6px 10px;
+  text-transform: uppercase;
+  color: #505050;
+  text-decoration: none;
+}
+
+.nav-wrapper a:hover {
+  font-weight: bold;
+}
+
+.search-icon {
+  background-color: #fff;
+  color: #909090;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  border-color: #909090;
+  padding: 15px 20px 15px 20px;
+  position: absolute;
+  top: 30px;
+  right: 12px;
+}
+
+hr {
+  background-color: #E8E8E8;
+  height: 1px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.content-wrapper {
+  background: #ff510a;
+}
+
+.blockquote-wrapper {
+  text-align: center;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.blockquote-wrapper blockquote,
+.blockquote-wrapper p {
+  display: inline-block;
+  margin: 0;
+  font-weight: bold;
+}
+
+.blockquote-wrapper img {
+  vertical-align: top;
+}
+
+.blockquote-wrapper blockquote {
+  font-size: 20px;
+}
+
+.blockquote-wrapper p {
+  font-size: 14px;
+}
+
+.blockquote-wrapper p::before {
+  content: "-";
+  margin: 0 10px 0 0;
+}
+
+.quote-content {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  width: 100%;
+}
+
+main > article {
+  float: right;
+  width: 50%;
+}
+
+main > aside {
+  float: left;
+  width: 50%;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+main > article {
+  background: #fff;
+  border-radius: 5px;
+  padding: 0 24px;
+}
+
+.additional-navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.additional-navigation li {
+  display: block;
+  width: 50%;
+  float: left;
+  margin-bottom: 12px;
+}
+
+.additional-navigation li:nth-child(1) a {
+  background: red;
+}
+
+.additional-navigation li:nth-child(2) a {
+  background: yellow;
+}
+
+.additional-navigation li:nth-child(3) a {
+  background: blue;
+}
+
+.additional-navigation li:nth-child(4) a {
+  background: block;
+}
+
+.additional-navigation a {
+  height: 200px;
+  display: block;
+  background: #ccc;
+  margin-right: 12px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.additional-navigation span {
+  color: #fff;
+  background: #000;
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 34px;
+  position: absolute;
+  bottom: 16px;
+}
+
+.email-container {
+  margin: 50px auto;
+  width: 600px;
+  height: 50px;
+}
+
+.textbox {
+  border: 1px solid #c4c4c4;
+  height: 50px;
+  width: 500px;
+  font-size: 13px;
+  padding: 4px 4px 4px 4px;
+}
+
+.textbox:focus {
+  outline: none;
+  border: 1px solid #7bc1f7;
+  box-shadow: 0px 0px 8px #7bc1f7;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid transparent;
+  background-color: orange;
+}
+
+.user-actions ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+  list-style: none;
+}
+
+.user-actions li {
+  display: block;
+  margin-bottom: 12px;
+  float: left;
+}
+
+.site-navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  float: left;
+}
+
+.site-navigation li {
+  display: block;
+  margin-bottom: 12px;
+  text-align: right;
+  float: left;
+}
+
+div.vertical-line {
+  width: 2px;
+  background-color: rgba(0, 0, 0, 0.12);
+  height: 200px;
+  float: left;
+  position: absolute;
+  top: 75px;
+  left: -29px;
+}
+
+.grid-layout-container {
+  padding: 0.25em;
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px
+}
+
+.grid-layout-container li {
+  float: left;
+  list-style-type: none;
+}
+
+.grid-layout-container img {
+  display: block;
+}
+
+.grid-layout-container li:nth-child(4n+1) {
+  clear: left;
+}
+
+.grid-layout-container li:nth-child(3n+1) {
+  clear: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
