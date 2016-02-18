@@ -12,27 +12,6 @@ html {
   margin: 0 auto;
 }
 
-.headerbar-wrapper {
-  text-align: center;
-  background: #fbf5d9;
-}
-
-.headerbar-wrapper p {
-  font-size: 17px;
-  font-weight: bold;
-}
-
-.headerbar-wrapper a {
-  color: #ff510a;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.headerbar-wrapper a[href^="mailto"] {
-  text-transform: none;
-  color: #000;
-}
-
 .header-wrapper header,
 p,
 h1 {
@@ -135,57 +114,6 @@ hr {
   margin-left: 50px;
 }
 
-.content-wrapper {
-  background: #ff510a;
-}
-
-.blockquote-wrapper {
-  text-align: center;
-  position: relative;
-  margin-bottom: 12px;
-}
-
-.blockquote-wrapper blockquote,
-.blockquote-wrapper p {
-  display: inline-block;
-  margin: 0;
-  font-weight: bold;
-}
-
-.blockquote-wrapper img {
-  vertical-align: top;
-}
-
-.blockquote-wrapper blockquote {
-  font-size: 20px;
-}
-
-.blockquote-wrapper p {
-  font-size: 14px;
-}
-
-.blockquote-wrapper p::before {
-  content: "-";
-  margin: 0 10px 0 0;
-}
-
-.quote-content {
-  position: absolute;
-  bottom: 20px;
-  color: #fff;
-  width: 100%;
-}
-
-main > article {
-  float: right;
-  width: 50%;
-}
-
-main > aside {
-  float: left;
-  width: 50%;
-}
-
 .clearfix::before,
 .clearfix::after {
   content: "";
@@ -194,12 +122,6 @@ main > aside {
 
 .clearfix::after {
   clear: both;
-}
-
-main > article {
-  background: #fff;
-  border-radius: 5px;
-  padding: 0 24px;
 }
 
 .additional-navigation ul {
@@ -348,14 +270,4 @@ div.vertical-line {
 
 .grid-layout-container li:nth-child(3n+1) {
   clear: none;
-}
-
-.clearfix::before,
-.clearfix::after {
-  content: "";
-  display: table;
-}
-
-.clearfix::after {
-  clear: both;
 }
