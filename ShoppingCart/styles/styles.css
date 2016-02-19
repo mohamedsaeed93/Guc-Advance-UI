@@ -207,7 +207,7 @@ hr {
   vertical-align: middle;
   background-image: none;
   border: 1px solid transparent;
-  background-color: orange;
+  background-color: #ff8c00;
 }
 
 .user-actions ul {
@@ -239,7 +239,7 @@ hr {
 
 div.vertical-line {
   width: 2px;
-  background-color: rgba(0, 0, 0, 0.12);
+  background-color: #ccc;
   height: 200px;
   float: left;
   position: absolute;
