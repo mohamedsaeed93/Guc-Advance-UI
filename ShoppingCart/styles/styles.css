@@ -109,8 +109,8 @@ h2 {
 
 hr {
   background-color: #E8E8E8;
-  width:90%;
-  align = center;
+  width: 90%;
+  align=center;
   height: 1px;
   margin-top: 30px;
   margin-left: 50px;
@@ -188,7 +188,7 @@ hr {
   height: 50px;
   width: 500px;
   font-size: 13px;
-  padding: 4px 4px 4px 4px;
+  padding: 4px;
 }
 
 .textbox:focus {
