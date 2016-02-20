@@ -109,6 +109,8 @@ h2 {
 
 hr {
   background-color: #E8E8E8;
+  width:90%;
+  align = center;
   height: 1px;
   margin-top: 30px;
   margin-left: 50px;
