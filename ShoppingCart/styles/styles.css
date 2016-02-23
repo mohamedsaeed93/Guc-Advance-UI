@@ -13,14 +13,13 @@ html {
 }
 
 .header-wrapper header,
-p,
-h1 {
+.header-wrapper p,
+.header-wrapper h1 {
   text-align: center;
   margin: 0;
 }
 
-.header-wrapper h1,
-h2 {
+.header-wrapper h1, .header-wrapper h2 {
   text-transform: uppercase;
   color: #0a1c0f;
   margin-top: 100px;
@@ -126,57 +125,6 @@ hr {
   clear: both;
 }
 
-.additional-navigation ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.additional-navigation li {
-  display: block;
-  width: 50%;
-  float: left;
-  margin-bottom: 12px;
-}
-
-.additional-navigation li:nth-child(1) a {
-  background: red;
-}
-
-.additional-navigation li:nth-child(2) a {
-  background: yellow;
-}
-
-.additional-navigation li:nth-child(3) a {
-  background: blue;
-}
-
-.additional-navigation li:nth-child(4) a {
-  background: block;
-}
-
-.additional-navigation a {
-  height: 200px;
-  display: block;
-  background: #ccc;
-  margin-right: 12px;
-  border-radius: 5px;
-  position: relative;
-}
-
-.additional-navigation span {
-  color: #fff;
-  background: #000;
-  display: block;
-  text-align: center;
-  width: 100%;
-  font-size: 17px;
-  text-transform: uppercase;
-  line-height: 34px;
-  position: absolute;
-  bottom: 16px;
-}
-
 .email-container {
   margin: 50px auto;
   width: 600px;
@@ -239,16 +187,6 @@ hr {
   float: left;
 }
 
-div.vertical-line {
-  width: 2px;
-  background-color: #ccc;
-  height: 200px;
-  float: left;
-  position: absolute;
-  top: 75px;
-  left: -29px;
-}
-
 .grid-layout-container {
   padding: 0.25em;
   overflow: hidden;
@@ -273,4 +211,170 @@ div.vertical-line {
 
 .grid-layout-container li:nth-child(3n+1) {
   clear: none;
+}
+
+.footer {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+
+.footer .footer-services,
+.footer .footer-social {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+
+/* Footer links */
+
+.footer .footer-links {
+  color: #000;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Footer services */
+
+.footer .footer-services {
+  width: 24%;
+}
+
+.footer .footer-services i {
+  background-color: #33383b;
+  color: #fff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-services i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-services p {
+  display: inline-block;
+  color: #000;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.nav-footer-wrapper p {
+  display: inline-block;
+  color: #585858;
+  vertical-align: middle;
+  margin: 0;
+  line-height: 1.2;
+  text-align: left;
+  font-weight: normal;
+}
+
+.footer .footer-services p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-services p a {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+
+/* Footer social */
+
+.footer .footer-social {
+  width: 24%;
+}
+
+
+/* Footer site */
+
+.footer .footer-services {
+  width: 24%;
+}
+
+.footer .footer-icons {
+  margin-top: 25px;
+}
+
+.footer .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 20px;
+  color: #909090;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #909090;
+  text-align: center;
+  line-height: 35px;
+}
+
+.footer .footer-icons a:hover {
+  background-color: #909090;
+  color: #fff;
+}
+
+.nav-footer-wrapper {
+  line-height: 10px;
+}
+
+.nav-footer-wrapper ul {
+  margin-left: -40px;
+  list-style-type: none;
+}
+
+.nav-footer-wrapper ul:after {
+  content: '';
+  height: 179px;
+  position: absolute;
+  border: 1px solid #D0D0D0;
+  top: 3px;
+  left: 275px;
+}
+
+.nav-footer-wrapper h2 {
+  display: block;
+  text-transform: uppercase;
+  height: 10px;
+  color: #282828;
+}
+
+.nav-footer-wrapper a:visited {
+  text-decoration: underline;
+}
+
+.nav-footer-wrapper a {
+  display: inline-block;
+  padding: 10px 5px 5px 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: normal;
+  color: #585858;
+}
+
+.nav-footer-wrapper a:hover {
+  font-weight: bold;
 }
