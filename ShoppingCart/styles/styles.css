@@ -303,11 +303,19 @@ p.price {
   font-weight: normal;
 }
 
-.breadcrumbs-nav {
+.breadcrumb a {
   color: #787878;
   text-transform: uppercase;
+  text-decoration: none;
   font-size: 18px;
-  margin-left: 50px;
+}
+
+.breadcrumb a:first-child {
+  margin-left: 40px;
+}
+
+.breadcrumb a:hover {
+  font-weight: bold;
 }
 
 
