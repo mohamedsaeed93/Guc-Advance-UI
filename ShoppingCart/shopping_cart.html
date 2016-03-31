@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/jquery-1.12.2.min.js"></script>
+  <script src="scripts/script.js"></script>
 </head>
 
 <body>
@@ -59,9 +61,12 @@
             <p class="ref">Ref. 2453.1345</p>
           </td>
           <td>One Color</td>
-          <td>39
+          <td class ="size-column">
+            <div class="size">39</div>
+            <div class="size-buttons-container">
             <button type="button" class="size-buttons"><img src="images/plus.png"></button>
             <button type="button" class="size-buttons"><img src="images/minus.png"></button>
+            </div>
           </td>
           <td>20%</td>
           <td>&euro;99.95</td>
@@ -77,9 +82,12 @@
             <p class="ref">Ref. 2413.4623</p>
           </td>
           <td>One Color</td>
-          <td>M
-            <button type="button" class="size-buttons"><img src="images/plus.png"></button>
-            <button type="button" class="size-buttons"><img src="images/minus.png"></button>
+          <td class ="size-column">
+            <div class="size">M</div>
+            <div class="size-buttons-container">
+              <button type="button" class="size-buttons"><img src="images/plus.png"></button>
+              <button type="button" class="size-buttons"><img src="images/minus.png"></button>
+            </div>
           </td>
           <td>20%</td>
           <td>&euro;169.00</td>
@@ -95,9 +103,12 @@
             <p class="ref">Ref. 1434.5313</p>
           </td>
           <td>Black</td>
-          <td>S
-            <button type="button" class="size-buttons"><img src="images/plus.png"></button>
-            <button type="button" class="size-buttons"><img src="images/minus.png"></button>
+          <td class ="size-column">
+            <div class="size">S</div>
+            <div class="size-buttons-container">
+              <button type="button" class="size-buttons"><img src="images/plus.png"></button>
+              <button type="button" class="size-buttons"><img src="images/minus.png"></button>
+            </div>
           </td>
           <td>20%</td>
           <td>&euro;299.00</td>
@@ -186,9 +197,9 @@
       <p>Select Payment Method</p>
       <br>
       <select name="Payment Method" id="payment_method">
-        <option value="DHL">Credit Card</option>
-        <option value="AMAZON">Master Card</option>
-        <option value="ARAMEX">Cash</option>
+        <option value="visa">Visa</option>
+        <option value="master_card">Master Card</option>
+        <option value="cash_on_delivery">Cash on Delivery</option>
       </select>
       <br>
       <button class="btn" type="submit"> Order Now </button>
