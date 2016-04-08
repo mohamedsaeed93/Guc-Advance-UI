@@ -88,12 +88,12 @@ html {
 .nav-wrapper a {
   display: inline-block;
   text-transform: uppercase;
-  color: #505050;
+  color: #707070;
   text-decoration: none;
 }
 
 .nav-wrapper a:not(.log-out):hover {
-  font-weight: bold;
+  color: #000;
 }
 
 .search-icon {
@@ -262,7 +262,8 @@ a.log-out {
 .categories-container li {
   float: left;
   list-style-type: none;
-  margin-right: 75px;
+  margin-top: 25px;
+  width: 25%;
 }
 
 .categories-container li:last-child {
